@@ -13,7 +13,8 @@
 		div > div {
 			background-color: lightgrey;
   			border: 1px solid black;
- 			margin-right: 10px;
+ 			margin-right: 15px;
+ 			margin-left: 15px;
  			font-style: italic;
  			font-weight: bold;
 		}
@@ -23,8 +24,9 @@
 		}
 
 		.section {
-			margin-top: 15px;
+
 			float: left;
+			margin-bottom: 30px;
 		}
 
 		.ha-title {
@@ -33,7 +35,7 @@
 			float: right;
 			position: relative;
 			top: -1px;
-			right: -11px;
+			right: -16px;
 			padding: 10px;
 			text-align: center;
 			font-style: normal;
