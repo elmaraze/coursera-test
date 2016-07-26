@@ -1,0 +1,89 @@
+		* {
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+
+		h1 {
+			text-decoration: underline;
+			text-align: center;
+			margin-bottom: 50px;
+			font-size: 175%;
+		}
+
+		div > div {
+			background-color: lightgrey;
+  			border: 1px solid black;
+ 			margin-right: 10px;
+ 			font-style: italic;
+ 			font-weight: bold;
+		}
+
+		p {
+			padding: 10px;
+		}
+
+		.section {
+			margin-top: 15px;
+			float: left;
+		}
+
+		.ha-title {
+			background-color: #00FFFF;
+			border: 1px solid black;
+			float: right;
+			position: relative;
+			top: -1px;
+			right: -11px;
+			padding: 10px;
+			text-align: center;
+			font-style: normal;
+			font-size: 125%;
+		}
+
+		#ha-title-1 {
+			background-color: #00FFFF;
+		}
+
+		#ha-title-2 {
+			background-color: #FF00FF;
+		}
+
+		#ha-title-3 {
+			background-color: #FFFF00;
+		}
+
+		@media (min-width: 992px) {
+			#section1 {
+				width: 33.33%;
+			}
+			#section2 {
+				width: 33.33%;
+			}
+			#section3 {
+				width: 33.33%;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			#section1 {
+				width: 50%;
+			}
+			#section2 {
+				width: 50%;
+			}
+			#section3 {
+				width: 100%;
+			}
+		}
+
+		@media (max-width: 767px) {
+			#section1 {
+				width: 100%;
+			}
+			#section2 {
+				width: 100%;
+			}
+			#section3 {
+				width: 100%;
+			}
+		}
